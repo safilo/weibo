@@ -315,7 +315,7 @@ function bindData(resData) {
 
 var data = null;
 ajax({
-    url: "./js/jsonData.json",
+    url: "./js/jsonData.json?_="+Math.random(),
     type: "GET",
     ansync: true,
     success: bindData
