@@ -46,6 +46,9 @@ a {
     float: right;
 }
 
+.hidden {
+    display:none;
+}
 
 /* -- UI Module start -- */
 
@@ -1307,7 +1310,6 @@ a {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
 }
-
 .wb-feed-container .wb-feed-wrapper a:hover {
     color: #76a513;
 }

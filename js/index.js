@@ -12,6 +12,7 @@ var container = document.getElementById("wb-feed-container"),
     // commentListTemp = utils.getByClass(template, "wb-comment-list")[0].cloneNode(true),
     // repeat模板
     WBRepeatTemp = utils.getByClass(template, "wb-feed-repeat")[0].cloneNode(true);
+    utils.removeClass(template, "hidden");
 
 //回复评论模板 replyTemp 
 var replyTemp = document.createElement("div");
